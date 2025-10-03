@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo-name/shared-domain": ["libs/shared/domain/src/index.ts"],
+      "@monorepo-name/shared-feature": ["libs/shared/feature/src/index.ts"],
+      "@monorepo-name/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@monorepo-name/shared-util": ["libs/shared/util/src/index.ts"],
+      "@monorepo-name/swe-demo-domain": ["libs/swe-demo/domain/src/index.ts"],
+      "@monorepo-name/swe-demo-feature": ["libs/swe-demo/feature/src/index.ts"],
+      "@monorepo-name/swe-demo-ui": ["libs/swe-demo/ui/src/index.ts"],
+      "@monorepo-name/swe-demo-util": ["libs/swe-demo/util/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
